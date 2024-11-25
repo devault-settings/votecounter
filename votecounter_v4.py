@@ -230,7 +230,7 @@ def Run(filename,i=-1, remove_parentheses=False):
     graph = ConstructGraph(scores)
     names =  [i.rstrip() for i in ballots[0]]
     
-# Uncomment if you want to print specifics on 1 v. 1 races
+# Uncomment if you want to print out specifics on 1 v. 1 races
     # print(list(zip(names, CountBallots(ballots))))
 
     graph_keys = list(graph.keys())
